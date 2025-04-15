@@ -8,7 +8,7 @@ from prolog_writer import PrologWriter
 
 def main():
 
-    api_key = "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"
+    api_key = os.getenv("OPENAI_API_KEY")
     facts_file="facts.pl"
     rules_file="rules.pl"
     #input_text = input("Type a sentence:\n> ")
