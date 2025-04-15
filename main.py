@@ -7,6 +7,7 @@ from llm_client import LLMClient
 from prolog_writer import PrologWriter
 import os
 
+
 def main():
 
     api_key = os.getenv("OPENAI_API_KEY")
